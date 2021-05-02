@@ -48,6 +48,7 @@ export default function GenerateArea() {
             <Input.Group compact>
                 <Select defaultValue="เลือกสไตล์" style={{ width: '10%', }} size='large' value={page} onChange={(e) => handlePage(e.toString())}>
                     <Option value="dinosaturday">ไดโนเศร้า</Option>
+                    <Option value="dinosaturdayv2">ไดโนเศร้า v2</Option>
                     <Option value="t047">t_047</Option>
                     <Option value="quotes">คำคม</Option>
                     <Option value="mix">แบบผสม!</Option>
